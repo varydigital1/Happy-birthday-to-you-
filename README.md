@@ -1,1 +1,368 @@
 # Happy-birthday-to-you
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Freehand&family=Hanuman:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Invoice.css">
+
+</head>
+
+<style>
+
+    .Doc{
+
+/* background-color: pink; */
+
+width: 400px;
+
+height: 800px;
+
+overflow: hidden;
+
+margin: auto;
+
+box-shadow: 0px 1px 3px 0px  black;
+
+}
+
+.Doc .logo{
+
+    margin-top: 20px;
+
+    width: 100%;
+
+    height: 150px;
+
+}
+
+.Doc .logo img{
+
+    width: 110px;
+
+    height: 110px;
+
+    object-fit: cover;
+
+}
+
+.Doc .logo .moon{
+
+    width: 100%;
+
+    /* background-color: aliceblue; */
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.Doc .logo .about{
+
+    padding-top: 1px;
+
+    width: 100%;
+
+    /* background-color: yellow; */
+
+}
+
+.Doc .logo .about h2{
+
+    color: black;
+
+    /* font-family: 'Freehand', cursive; */
+
+    font-family: 'Hanuman', serif; 
+
+    object-fit: cover;
+
+    font-size: 9px;
+
+    text-align: center;
+
+}
+
+.Doc .logo .receipt .va,.ly{
+
+    width: 50%;
+
+    float: left;
+
+}
+
+.Doc .logo h1{
+
+    color: black;
+
+    /* font-family: 'Freehand', cursive; */
+
+    font-family: 'Hanuman', serif; 
+
+    object-fit: cover;
+
+    font-size: 14px;
+
+    text-align: center;
+
+}
+
+.Doc .logo p{
+
+    color: black;
+
+    /* font-family: 'Freehand', cursive; */
+
+    font-family: 'Hanuman', serif; 
+
+    font-size: 8px;
+
+    text-align: center;
+
+}
+
+.Doc .logo h3{
+
+    color: black;
+
+    /* font-family: 'Freehand', cursive; */
+
+    font-family: 'Hanuman', serif; 
+
+    font-size: 28px;
+
+    text-align: center; 
+
+}
+
+.Doc .logo h2{
+
+    color: black;
+
+    /* font-family: 'Freehand', cursive; */
+
+    font-family: 'Hanuman', serif; 
+
+    font-size: 10px;
+
+    text-align: center; 
+
+    padding-top: 1px;
+
+}
+
+.Doc .logo .receipt .va h2{
+
+    color: black;
+
+    /* font-family: 'Freehand', cursive; */
+
+    font-family: 'Hanuman', serif; 
+
+    font-size: 9px;
+
+    text-align: left;
+
+    margin-left: 20px;
+
+    
+
+}
+
+.Doc .logo .receipt table{
+
+    color: black;
+
+    font-family: 'Hanuman', serif; 
+
+    font-size: 9px;
+
+    text-align: left;
+
+    margin-left: 20px;
+
+    padding-right: 20px;
+
+    width: 100%;
+
+}
+
+.Doc .logo .receipt .ly h2{
+
+    color: black;
+
+    font-family: 'Hanuman', serif; 
+
+    font-size: 9px;
+
+    text-align: left;
+
+    margin-left: 20px;
+
+}
+
+
+
+</style>
+
+<body>
+
+    <div class="Doc">
+
+        <div class="logo">
+
+            <div class="moon"><img src="M1.png" alt=""></div>
+
+            <h1><b>ម៉ូនធី​ កាហ្វេ</b></h1>
+
+            <div class="about">
+
+                <h2>លេខអត្តសញ្ញាណកម្ម(VATTIN): E005-2300003247</h2>
+
+                <h2>#385 ផ្លូវ មហាវិធីព្រះស៊ីសុវត្ថិ សង្កាត់ជ័យជំនះ ខណ្ឌដូនពេញ​ រាជធានីភ្នំពេញ <br>011 379 701</h2>
+
+                <hr >
+
+            </div>
+
+            <h1><b>វិក្កយបត្រ / RECEIPT</b></h1>
+
+            <div class="receipt">
+
+                <div class="va">
+
+                    <h2>សាខា / Store</h2>
+
+                    <h2>កាលបរិច្ឆេត / Date</h2>
+
+                    <h2>អ្នកគិតលុយ / Cashier</h2>
+
+                    <h2>វិក្កយបត្រ / Invoice Number</h2>
+
+                    <h2>ប្រភេទកម្មង / Order Type</h2>
+
+                </div>
+
+                <div class="ly">
+
+                    <h2>: RVS</h2>
+
+                    <h2>: 28 / 11 / 2023</h2>
+
+                    <h2>: Afternoon</h2>
+
+                    <h2>: INV0049005</h2>
+
+                    <h2>: TEA</h2>
+
+                </div>
+
+            </div><hr>
+
+            <h1><b>IN</b></h1>
+
+            <div class="receipt">
+
+                <table>
+
+                    <tr>
+
+                        <th>មុខទំនិញ</th>
+
+                        <th>តម្លៃ</th>
+
+                        <th>បញ្ចុះតម្លៃ</th>
+
+                        <th>សរុប</th>
+
+                    </tr>
+
+                    <tr>
+
+                        <th>Item Name</th>
+
+                        <th>Price</th>
+
+                        <th>Dis.</th>
+
+                        <th>Total</th>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>1X L-Iced Honey Lime Tea</td>
+
+                        <td>$ 2.43</td>
+
+                        <td>$ 0.00</td>
+
+                        <td>$ 2.43</td>
+
+                    </tr>
+
+                </table><hr>
+
+            </div>
+
+            <div class="receipt">
+
+                <div class="va">
+
+                    <h2>សរុបបឋម / Sub Total</h2>
+
+                    <h2>សរុប / TOTAL(USA)</h2>
+
+                    <h2>សរុប /TOTAL(KHR)</h2>
+
+                    <h2>ប្រាក់ទទួល / RECEIPT(USA)</h2>
+
+                </div>
+
+                <div class="ly">
+
+                    <h2>$ 2.43</h2>
+
+                    <h2>$ 2.43</h2>
+
+                    <h2>៛ 10000</h2>
+
+                    <h2>$ 2.43</h2>
+
+                </div>
+
+            </div>
+
+            <p><b>តម្លៃរួមបញ្ចូលទាំងអាករ/Incl.VAT 10% អត្រាប្តូរប្រាក់/Exchange Rate $1=4100៛</b></p><hr>
+
+            <h3>30</h3>
+
+            <h2>លេខរងចាំ/TICKET</h2>
+
+            <h2>Thank you,please come back again.</h2>
+
+            <h2>Wifi Password : moonteacoffee</h2>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
